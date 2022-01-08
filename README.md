@@ -27,3 +27,14 @@ Esta carpeta comprende un archivo llamado useFetch.js que contiene:
    const {data: null, loading: true, error: null} = useFetch(url);
 ```
 > Note: `useFetch() Recibe un URL`
+
+## Carpeta useForm
+Esta carpeta comprende un archivo llamado useForm.js que contiene:
+- React.useState
+- (fn) reset
+- (fn) handleInputChange
+## Ejemplo
+```sh
+   const {values, handleInputChange, reset} = useForm(value state);
+```
+> Note: `useForm() Recibe valores para el state`
