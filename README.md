@@ -16,7 +16,7 @@ Esta carpeta comprende un archivo llamado useCounter.js que contiene:
 ```
 > Note: `useCounter() Recibe un valor por defecto`
 
-* Carpeta useFetch
+# Carpeta useFetch
 Esta carpeta comprende un archivo llamado useFetch.js que contiene:
 - React.useState
 - React.useRef
