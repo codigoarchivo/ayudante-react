@@ -4,7 +4,7 @@ Este es un repositorio que su objetivo es guardar partes de código que podemos 
 ## Carpeta hooks
 comprende pequeñas lineas de codigo que podemos utilizar para ser hooks
 
-# Carpeta useCounter
+## Carpeta useCounter
 Esta carpeta comprende un archivo llamado useCounter.js que contiene:
 - React.useState
 - (fn) Increment
@@ -16,7 +16,7 @@ Esta carpeta comprende un archivo llamado useCounter.js que contiene:
 ```
 > Note: `useCounter() Recibe un valor por defecto`
 
-# Carpeta useFetch
+## Carpeta useFetch
 Esta carpeta comprende un archivo llamado useFetch.js que contiene:
 - React.useState
 - React.useRef
