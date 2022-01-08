@@ -13,3 +13,13 @@ Esta carpeta comprende un archivo llamado useCounter.js que contiene:
 # Ejemplo
 const {counter, increment, decrement, reset} = useCounter(value initial);
 * useCounter() Recibe un valor por defecto
+
+* Carpeta useFetch
+Esta carpeta comprende un archivo llamado useFetch.js que contiene:
+- React.useState
+- React.useRef
+- React.useEffect
+- fetch(url)
+# Ejemplo
+const {data: null, loading: true, error: null} = useFetch(url);
+* useFetch() Recibe un URL
