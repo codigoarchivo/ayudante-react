@@ -11,5 +11,5 @@ Esta carpeta comprende un archivo llamado useCounter.js que contiene:
 - (fn) reset
 - (fn) decrement
 # Ejemplo
-const {counter, increment, decrement, reset} = useCounter(valor initial);
+const {counter, increment, decrement, reset} = useCounter(value initial);
 * useCounter() Recibe un valor por defecto
