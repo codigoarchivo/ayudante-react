@@ -32,16 +32,10 @@ export const useValidacion = (stateInicial, validar, fn) => {
     setSubmitForm(true);
   };
 
-  const handleBlur = () => {
-    const erroresValidaciones = validar(valores);
-    setErrores(erroresValidaciones);
-  };
-
   return {
     valores,
     errores,
     handleSubmit,
-    handleChange,
-    handleBlur,
+    handleChange
   };
 };
